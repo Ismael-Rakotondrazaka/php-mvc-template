@@ -1,0 +1,23 @@
+# Ignore composer dependencies
+/vendor/
+
+# Ignore logs and cache files
+/log/
+/var/cache/
+
+# Ignore configuration files with secrets
+/app/config/parameters.yml
+/app/config/parameters.yml.dist
+
+# Ignore PHPStorm files
+.idea/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.prod
+.env.dev
+
+# Ignore vscode
+.vscode
+
